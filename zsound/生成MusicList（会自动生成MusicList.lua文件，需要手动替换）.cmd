@@ -13,7 +13,7 @@ set filepath=
 set subpath=
 
 :: 音量
-set volume=1
+set volume=0.5
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: 下面是脚本 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -21,6 +21,7 @@ set volume=1
 if "%filepath%"=="" (set filepath=%cd%)
 
 set message=当前选择的文件夹是 : 
+set volumemessage=当前音量是 : 
 set listis=查找到的文件 :
 set oggfile=*.ogg
 set wavfile=*.wav
@@ -37,6 +38,7 @@ if not "%strlen_str%"=="" (
 chcp 65001
 @echo .
 @echo %message%%filepath%
+@echo %volumemessage%%volume%
 @echo .
 @echo return>MusicList.lua
 @echo {>>MusicList.lua
