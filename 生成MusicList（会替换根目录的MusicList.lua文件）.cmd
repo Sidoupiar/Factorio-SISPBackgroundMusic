@@ -10,7 +10,7 @@ set filepath=C:\Users\Administrator\Desktop\新建文件夹
 
 :: 相对于 zsound 的文件夹位置
 :: 分隔符用 / , 结尾带 /
-set subpath=
+set subpath=新建文件夹
 
 :: 音量
 set volume=1
