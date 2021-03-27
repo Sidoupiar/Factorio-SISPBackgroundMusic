@@ -19,7 +19,7 @@ end
 SIGen
 .Init( SISPBGM )
 
-need( "zprototype/common" )
+need( "zprototype/view" )
 
 if SIStartup.SISPBGM.enable() then
 	for index , musicData in pairs( SISPBGM.musicList ) do
