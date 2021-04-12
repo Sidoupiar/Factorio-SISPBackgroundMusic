@@ -7,9 +7,4 @@
 	"homepage" : "http://www.sidoupiar.com" ,
 	"description" : "Now you can add some musics which you like into game as background music" ,
 	"dependencies" : [ "SICoreFunctionLibrary >= 0.4.6" , "! Gcn" ]
-<<<<<<< .mine
-	"dependencies" : [ "SICoreFunctionLibrary >= 0.4.5" , "! Gcn" ]
-=======
-	"dependencies" : [ "SICoreFunctionLibrary >= 0.4.6" ]
->>>>>>> .theirs
 }
