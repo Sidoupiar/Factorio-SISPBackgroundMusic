@@ -19,6 +19,8 @@ end
 SIGen
 .Init( SISPBGM )
 
+need( "zprototype/view" )
+
 if SIStartup.SISPBGM.enable() then
 	for index , musicData in pairs( SISPBGM.musicList ) do
 		local file = musicData[2]
