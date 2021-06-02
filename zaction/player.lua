@@ -135,7 +135,7 @@ end
 -- ------------------------------------------------------------------------------------------------
 
 function SIMusicPlayer.OnInit()
-	remote.call( "sicfl-toolbar" , "AddTool" , SIMusicPlayer.toolbarButtonId , SIMusicPlayer.toolbarButtonName , SIMusicPlayer.itemName , "SISPBGM.toolbar-button" , "SISPBGM.toolbar-tooltip" , SIMusicPlayer.interfaceId , "ShowViewByPlayerIndex" )
+	SIToolbar.AddTool( SIMusicPlayer.toolbarButtonId , SIMusicPlayer.toolbarButtonName , SIMusicPlayer.itemName , "SISPBGM.toolbar-button" , "SISPBGM.toolbar-tooltip" , SIMusicPlayer.interfaceId , "ShowViewByPlayerIndex" )
 end
 
 function SIMusicPlayer.OnClickView( event )
